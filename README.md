@@ -14,9 +14,9 @@
 | gfl | 0.4950 | - | [github](https://github.com/fengyouliang/underwater_object_detection/blob/master/configs/gfl.py) | base gfl |
 | gfl_cb | 0.4960 | - | [github](https://github.com/fengyouliang/underwater_object_detection/blob/master/configs/gfl_cb.py) | base gfl + class balance(1e-3) |
 | gfl_mstrain| 0.5040 | 0.51099049 | [github](https://github.com/fengyouliang/underwater_object_detection/blob/master/configs/gfl_mstrain.py) | base gfl + mstrain |
-
+| gfl_mstraintest| 0.5050 | - | [github](https://github.com/fengyouliang/underwater_object_detection/blob/master/configs/gfl_mstraintest.py) | base gfl + mstrain_test |
 
 ### Notes
 - base: schedules-1x, backbone-resnet50
-- mstrain: multi scale train
+- ms: multi scale
 - cb: class balance
