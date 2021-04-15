@@ -12,8 +12,11 @@
 | detectors_cascade_rcnn | 0.4910 | - | [github](https://github.com/fengyouliang/underwater_object_detection/blob/master/configs/detectors_cascade_rcnn.py) | base cascade rcnn + detectors |
 | fcos | 0.4690 | - | [github](https://github.com/fengyouliang/underwater_object_detection/blob/master/configs/fcos.py) | base fcos |
 | gfl | 0.4950 | - | [github](https://github.com/fengyouliang/underwater_object_detection/blob/master/configs/gfl.py) | base gfl |
+| gfl_cb | 0.4960 | - | [github](https://github.com/fengyouliang/underwater_object_detection/blob/master/configs/gfl_cb.py) | base gfl + class balance(1e-3) |
+| gfl_mstrain| 0.5040 | 0.51099049 | [github](https://github.com/fengyouliang/underwater_object_detection/blob/master/configs/gfl_mstrain.py) | base gfl + mstrain |
 
 
-
+### Notes
 - base: schedules-1x, backbone-resnet50
 - mstrain: multi scale train
+- cb: class balance
