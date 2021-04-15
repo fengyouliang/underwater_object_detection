@@ -16,3 +16,4 @@
 
 
 - base: schedules-1x, backbone-resnet50
+- mstrain: multi scale train
